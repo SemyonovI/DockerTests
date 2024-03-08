@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  timer:
+    image: custom_ubuntu
+    command: ./root/echoTime.sh
